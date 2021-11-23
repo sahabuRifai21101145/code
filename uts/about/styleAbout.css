@@ -1,0 +1,175 @@
+body{
+	background-color:ghostwhite;
+	background-image: url(../image/gradien3.png);
+	background-repeat: repeat-x;
+	background-size: 30%;
+}
+form {
+  position: absolute;
+  left: 739px;
+  top: 80px;
+  width:500px;
+  margin:50px auto;
+}
+.cari{
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.go {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid rgba(50, 50, 50, 0.2);
+    background-color:skyblue;
+    color:#fafafa;
+}
+.go:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+h1{
+position: absolute;
+width: 680px;
+height: 133px;
+left: 0px;
+top: -50px;
+
+font-family: Ravie;
+font-style: normal;
+font-weight: normal;
+font-size: 85px;
+line-height: 133px;
+
+color: #183265;
+font-variant: small-caps;
+}
+h1:hover{
+font-size: 90px;
+}
+.p1{
+position: absolute;
+width: 138px;
+height: 40px;
+left: 1000px;
+top: 100px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 40px;
+}
+.p1:hover{
+  font-size: 27px;
+}
+.p2{
+position: absolute;
+width: 121px;
+height: 40px;
+left: 1127px;
+top: 100px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 40px;
+}
+.p2:hover{
+font-size: 27px;
+}
+.p3{
+display: table;
+background-color: rgba(80, 219, 227, 0.49);
+position: absolute;
+width: 116px;
+height: 40px;
+left: 1246px;
+top: 100px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 40px;
+}
+.p3:hover{
+font-size: 27px;
+}
+.garis{
+position: absolute;
+width: 1350px;
+height: 0px;
+left: 0px;
+top: 157px;
+
+border: 1px solid #000000;
+}
+.welcome{
+position: absolute;
+width: 901px;
+height: 70px;
+left: 19px;
+top: 123px;
+
+font-family: Comic Sans MS;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 82px;
+
+color: #000000;
+}
+.bg{	
+position: absolute;
+left: 414px;
+top: 220px;
+}
+.me {
+position: absolute;
+left: 590px;
+top: 230px;
+border-radius: 20px;
+}
+.nama{
+position: absolute;
+width: 273px;
+height: 120px;
+left: 418px;
+top: 314px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+}
+.nim{
+position: absolute;
+width: 273px;
+height: 120px;
+left: 418px;
+top: 354px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+}
+.kelas{
+position: absolute;
+width: 273px;
+height: 120px;
+left: 418px;
+top: 397px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+
+}
