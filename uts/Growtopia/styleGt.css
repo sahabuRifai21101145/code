@@ -1,0 +1,290 @@
+body{
+	background-color:ghostwhite;
+	background-image: url(../image/gradien3.png);
+	background-repeat: repeat-x;
+	background-size: 30%;
+}
+form {
+  position: absolute;
+  left: 739px;
+  top: 80px;
+  width:500px;
+  margin:50px auto;
+}
+.cari{
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.go {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid rgba(50, 50, 50, 0.2);
+    background-color:skyblue;
+    color:#fafafa;
+}
+.go:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+h1{
+position: absolute;
+width: 459px;
+height: 133px;
+left: 0px;
+top: -50px;
+
+font-family: Ravie;
+font-style: normal;
+font-weight: normal;
+font-size: 85px;
+line-height: 133px;
+
+color: #183265;
+font-variant: small-caps;
+}
+h1:hover{
+font-size: 90px;
+
+}
+.p1{
+position: absolute;
+width: 138px;
+height: 40px;
+left: 1000px;
+top: 100px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 40px;
+}
+.p1:hover{
+  font-size: 27px;}
+
+.p2{
+position: absolute;
+width: 121px;
+height: 40px;
+left: 1127px;
+top: 100px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 40px;
+}
+.p2:hover{
+  font-size: 27px;}
+.p3{
+position: absolute;
+width: 116px;
+height: 40px;
+left: 1246px;
+top: 100px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 40px;
+}
+.p3:hover{
+  font-size: 27px;}
+.garis{
+position: absolute;
+width: 1350px;
+height: 0px;
+left: 0px;
+top: 157px;
+
+border: 1px solid #000000;
+}
+.DL{
+position: absolute;
+left: 44px;
+top: 203px;
+border-radius: 14px;
+}
+.DL:hover{
+	padding: 5;
+	width: 58px;
+	height: 55px;
+}
+.diamondtx{
+position: absolute;
+width: 210px;
+height: 80px;
+left: 15px;
+top: 222px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 40px;
+}
+
+.WL{
+position: absolute;
+left: 42px;
+top: 303px;
+border-radius: 10px;
+}
+.WL:hover{
+	padding: 5;
+	width: 58px;
+	height: 55px;
+}
+.worldtx{
+position: absolute;
+width: 210px;
+height: 80px;
+left: 15px;
+top: 337px; 
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 40px;
+}
+.Mg{
+  position: absolute;
+left: 42px;
+top: 415px;
+border-radius: 5px;
+}
+.Mg:hover{
+	padding: 5;
+	width: 58px;
+	height: 55px;
+}
+.Maghplanttx{
+
+position: absolute;
+width: 210px;
+height: 40px;
+left: 15px;
+top: 449px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+}
+.gaia{
+position: absolute;
+left: 42px;
+top: 529px;
+}
+.gaia:hover{
+	padding: 5;
+	width: 58px;
+	height: 55px;
+
+}
+.gaiatx{
+position: absolute;
+width: 210px;
+height: 40px;
+left: 15px;
+top: 552px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;}
+.Ut{
+ position: absolute;
+left: 42px;
+top: 623px;
+}
+.Ut:hover{
+	padding: 5;
+	width: 58px;
+	height: 55px;
+}
+.Uttx{
+position: absolute;
+width: 275px;
+height: 40px;
+left: 15px;
+top: 645px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+}
+.Hdl{
+position: absolute;
+width: 137px;
+height: 40px;
+left: 174px;
+top: 185px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+}
+.HWL{
+position: absolute;
+width: 137px;
+height: 40px;
+left: 174px;
+top: 278px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+}
+.Hmagh{
+position: absolute;
+width: 137px;
+height: 40px;
+left: 174px;
+top: 388px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+}
+.Hgaia{
+position: absolute;
+width: 137px;
+height: 40px;
+left: 174px;
+top: 500px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+}
+.HUT{
+position: absolute;
+width: 137px;
+height: 40px;
+left: 174px;
+top: 598px;
+
+font-family: Red Hat Text;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 40px;
+}
