@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>contoh penggunaan bootstrap</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+	<h3>Form komponen</h3>
+	<form class="form-horizontal">
+<!-- nama -->
+		<div class="row">
+			<div class="col-6">
+				<label for="Nama lengkap">Nama Lengkap</label>
+				<input type="text" name="txtNamaLengkap" id="txtNamaLengkap" id="txtNamaLengkap" class="form-control">
+			</div>
+			<div class="col-6">
+				<label for="Nama Singkat">Nama Singkat</label>
+				<input type="text" name="txtNamaSingkat" id="txtNamaSingkat" id="txtNamaSingkat" class="form-control">
+			</div>
+		</div>
+<!-- jenis kelamin		 -->
+		<div class="row">
+			<div class="col-6">
+			<label for="JenisKelamin">Jenis Kelamin</label>
+			<input type="radio" name="txtjk" value=" laki--laki">Laki - Laki 
+			<input type="radio" name="txtjk" value=" Perempuan">perempuan
+		</div>
+<!-- tanggal lahir -->
+			<div class="col-6">
+			<label for="tglLahir">Tanggal Lahir</label>
+			<input type="date" name="txtlahir" id="txlahir" class="form-control">
+			</div>
+			
+<!-- alamat -->
+			<div class="col-6">
+			<label for="Alamat">Alamat</label>
+			<textarea name="txtAlamat" id="txtAlamat" class="form-control"></textarea> 
+			</div>
+<!-- Hobi -->
+			<div class="col-6">
+			<label for="hobi">Hobi</label>
+			<div class="col-3">
+				<input type="checkbox" name="hobi1" id="hobi1" value="renang"> Renang
+			</div>
+			<div class="col-3">
+				<input type="checkbox" name="hobi2" id="hobi2" value="senam"> Senam
+			</div>
+			<div class="col-3">
+				<input type="checkbox" name="hobi3" id="hobi3" value="membaca"> Membaca
+			</div>
+			<div class="col-3">
+				<input type="checkbox" name="hobi4" id="hobi4" value="melukis"> Melukis
+			</div>
+			<div class="col-3">
+				<input type="checkbox" name="hobi5" id="hobi5" value="bermain sepak bola"> Bermain Bola
+			</div>
+			<div class="col-3">
+				<input type="checkbox" name="hobi6" id="hobi6" value="menonton filem"> Menonton Filem
+			</div>
+
+			</div>
+<!-- golongan darah -->
+  <div class="col-6">
+    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+    <select class="form-select" id="autoSizingSelect">
+      <option selected>golongan darah</option>
+      <option value="1">A</option>
+      <option value="2">B</option>
+      <option value="3">O</option>
+    </select>
+  </div>
+<!-- tombol -->
+			<div class="col-6">
+				<input type="reset" name="txtreset"value="reset form"> 
+				<input type="reset" name="txtkirim"value="kirim form"> 
+			</div>
+	</form>
+</div>
+
+</body>
+</html>
